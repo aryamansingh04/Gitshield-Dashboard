@@ -1,0 +1,125 @@
+{
+ "best": "MLP Neural Network",
+ "n_models": 17,
+ "n_total": 80489,
+ "n_train": 64391,
+ "n_test": 16098,
+ "acc": 0.950429,
+ "f1": 0.950402,
+ "auc": 0.98795,
+ "acc_ci": [
+  0.947261,
+  0.953783
+ ],
+ "f1_ci": [
+  0.947228,
+  0.953758
+ ],
+ "models": [
+  [
+   "MLP Neural Network",
+   0.950402,
+   "Baseline"
+  ],
+  [
+   "MLP Neural Network (Tuned)",
+   0.950366,
+   "Tuned"
+  ],
+  [
+   "HistGradientBoosting",
+   0.938163,
+   "Baseline"
+  ],
+  [
+   "Gradient Boosting (Tuned)",
+   0.935775,
+   "Tuned"
+  ],
+  [
+   "Extra Trees",
+   0.930644,
+   "Baseline"
+  ],
+  [
+   "Random Forest (Tuned)",
+   0.930433,
+   "Tuned"
+  ],
+  [
+   "Random Forest",
+   0.929853,
+   "Baseline"
+  ],
+  [
+   "Gradient Boosting",
+   0.923909,
+   "Baseline"
+  ],
+  [
+   "Logistic Regression",
+   0.921754,
+   "Baseline"
+  ],
+  [
+   "Logistic Regression (Tuned)",
+   0.921754,
+   "Tuned"
+  ],
+  [
+   "Decision Tree",
+   0.917579,
+   "Baseline"
+  ],
+  [
+   "KNN",
+   0.891388,
+   "Baseline"
+  ]
+ ],
+ "adj": 0.8759398496240601,
+ "high_recall": 0.905301,
+ "high_prec": 0.987855,
+ "hg_diff": 0.01248602,
+ "hg_lo": 0.0101876,
+ "hg_hi": 0.01490868,
+ "mlp_vs_tuned_p": 1.0,
+ "maxerr": 2.220446049250313e-16,
+ "abl": {
+  "A|Dummy (class prior)": 0.337371,
+  "A|Logistic Regression": 0.921295,
+  "A|HistGradientBoosting": 0.937943,
+  "A|MLP Neural Network": 0.950429,
+  "B|Dummy (class prior)": 0.337371,
+  "B|Logistic Regression": 0.626786,
+  "B|HistGradientBoosting": 0.647347,
+  "B|MLP Neural Network": 0.643931,
+  "C|Dummy (class prior)": 0.337371,
+  "C|Logistic Regression": 0.569015,
+  "C|HistGradientBoosting": 0.585414,
+  "C|MLP Neural Network": 0.589576
+ },
+ "top_feat": [
+  [
+   "days_since_update",
+   0.438803
+  ],
+  [
+   "license_Unknown",
+   0.130828
+  ],
+  [
+   "has_license",
+   0.126241
+  ],
+  [
+   "repository_age_years",
+   0.085333
+  ],
+  [
+   "issue_resolution_rate",
+   0.050453
+  ]
+ ],
+ "band_err": 0.20746
+}

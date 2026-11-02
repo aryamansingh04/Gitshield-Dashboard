@@ -1,0 +1,17 @@
+[  12.4s] permutation importance done: MLP Neural Network (Tuned)
+[  12.9s] permutation importance done: MLP Neural Network
+[  20.4s] permutation importance done: HistGradientBoosting
+[  27.0s] permutation importance done: Gradient Boosting (Tuned)
+[  45.2s] permutation importance done: Random Forest (Tuned)
+[  61.7s] permutation importance done: Extra Trees
+[  61.9s] permutation importance done: Logistic Regression
+[  62.1s] DONE
+                  Feature  Importance
+10      days_since_update    0.422330
+19        license_Unknown    0.214853
+14   repository_age_years    0.070044
+16            has_license    0.064685
+15  issue_resolution_rate    0.052990
+6           pull_requests    0.040988
+17    has_code_of_conduct    0.037355
+1                   forks    0.028725

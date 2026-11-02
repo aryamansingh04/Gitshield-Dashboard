@@ -1,0 +1,28 @@
+[   0.0s] Q1: 15/21 predictor columns are inputs (direct or indirect) of the label formula
+[   0.9s] Q2: reconstruction max|err|=8.00e-02, share<1e-6=0.9999, label agreement=1.0000
+[   0.9s] Q3: error rate by distance to threshold:
+                                            Model  n_test_rows  n_errors  error_rate
+distance_to_nearest_threshold                                                       
+-0.001-0.005                   MLP Neural Network          617       128      0.2075
+0.005-0.01                     MLP Neural Network          700        47      0.0671
+0.01-0.02                      MLP Neural Network         1788        55      0.0308
+0.02-0.04                      MLP Neural Network         3342       109      0.0326
+0.04-0.08                      MLP Neural Network         4870       205      0.0421
+0.08-1                         MLP Neural Network         4781       254      0.0531
+[   1.0s] Q5: thresholds all=(0.54, 0.65) train-only=(0.54, 0.65); changed test labels=0
+[   9.7s] Q4: A. Full DA2 predictor set (as reported): 21 raw columns -> 20 selected features
+[   9.7s]     Dummy (class prior)      acc=0.3374 f1=0.1682
+[  10.2s]     Logistic Regression      acc=0.9213 f1=0.9218
+[  13.5s]     HistGradientBoosting     acc=0.9379 f1=0.9382
+[  18.0s]     MLP Neural Network       acc=0.9504 f1=0.9504
+[  23.8s] Q4: B. Without direct security flags (license, code of conduct, archived, days since update): 16 raw columns -> 20 selected features
+[  23.8s]     Dummy (class prior)      acc=0.3374 f1=0.1682
+[  24.3s]     Logistic Regression      acc=0.6268 f1=0.6259
+[  26.5s]     HistGradientBoosting     acc=0.6473 f1=0.6451
+[  30.2s]     MLP Neural Network       acc=0.6439 f1=0.6455
+[  33.8s] Q4: C. Without ANY label-formula input: 6 raw columns -> 15 selected features
+[  33.9s]     Dummy (class prior)      acc=0.3374 f1=0.1682
+[  34.1s]     Logistic Regression      acc=0.5690 f1=0.5611
+[  35.9s]     HistGradientBoosting     acc=0.5854 f1=0.5831
+[  42.2s]     MLP Neural Network       acc=0.5896 f1=0.5837
+[  42.2s] DONE

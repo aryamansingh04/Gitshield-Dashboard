@@ -1,0 +1,6 @@
+{
+  "best_model": "MLP Neural Network",
+  "median_distance_correct": 0.049379760864764255,
+  "median_distance_errors": 0.05127123114053056,
+  "share_errors_within_0.02_of_threshold": 0.2882205513784461
+}

@@ -1,0 +1,12 @@
+{
+  "thresholds_all_rows_(DA2)": [
+    0.54,
+    0.65
+  ],
+  "thresholds_train_rows_only": [
+    0.54,
+    0.65
+  ],
+  "test_labels_that_would_change": 0,
+  "n_test": 16098
+}

@@ -1,0 +1,154 @@
+Model,Actual,Predicted,Count,Row_Pct
+Logistic Regression,Low Risk,Low Risk,5091,0.948751
+Logistic Regression,Low Risk,Medium Risk,275,0.051249
+Logistic Regression,Low Risk,High Risk,0,0.0
+Logistic Regression,Medium Risk,Low Risk,197,0.036273
+Logistic Regression,Medium Risk,Medium Risk,4973,0.915669
+Logistic Regression,Medium Risk,High Risk,261,0.048057
+Logistic Regression,High Risk,Low Risk,48,0.009055
+Logistic Regression,High Risk,Medium Risk,486,0.091681
+Logistic Regression,High Risk,High Risk,4767,0.899264
+KNN,Low Risk,Low Risk,4881,0.909616
+KNN,Low Risk,Medium Risk,478,0.089079
+KNN,Low Risk,High Risk,7,0.001305
+KNN,Medium Risk,Low Risk,390,0.07181
+KNN,Medium Risk,Medium Risk,4743,0.87332
+KNN,Medium Risk,High Risk,298,0.05487
+KNN,High Risk,Low Risk,102,0.019242
+KNN,High Risk,Medium Risk,486,0.091681
+KNN,High Risk,High Risk,4713,0.889078
+Decision Tree,Low Risk,Low Risk,5093,0.949124
+Decision Tree,Low Risk,Medium Risk,230,0.042862
+Decision Tree,Low Risk,High Risk,43,0.008013
+Decision Tree,Medium Risk,Low Risk,338,0.062235
+Decision Tree,Medium Risk,Medium Risk,4923,0.906463
+Decision Tree,Medium Risk,High Risk,170,0.031302
+Decision Tree,High Risk,Low Risk,69,0.013016
+Decision Tree,High Risk,Medium Risk,482,0.090926
+Decision Tree,High Risk,High Risk,4750,0.896057
+Random Forest,Low Risk,Low Risk,5178,0.964965
+Random Forest,Low Risk,Medium Risk,182,0.033917
+Random Forest,Low Risk,High Risk,6,0.001118
+Random Forest,Medium Risk,Low Risk,273,0.050267
+Random Forest,Medium Risk,Medium Risk,5028,0.925796
+Random Forest,Medium Risk,High Risk,130,0.023937
+Random Forest,High Risk,Low Risk,80,0.015091
+Random Forest,High Risk,Medium Risk,462,0.087153
+Random Forest,High Risk,High Risk,4759,0.897755
+Extra Trees,Low Risk,Low Risk,5182,0.96571
+Extra Trees,Low Risk,Medium Risk,181,0.033731
+Extra Trees,Low Risk,High Risk,3,0.000559
+Extra Trees,Medium Risk,Low Risk,275,0.050635
+Extra Trees,Medium Risk,Medium Risk,5036,0.927269
+Extra Trees,Medium Risk,High Risk,120,0.022095
+Extra Trees,High Risk,Low Risk,96,0.01811
+Extra Trees,High Risk,Medium Risk,445,0.083946
+Extra Trees,High Risk,High Risk,4760,0.897944
+Gradient Boosting,Low Risk,Low Risk,5063,0.943533
+Gradient Boosting,Low Risk,Medium Risk,300,0.055908
+Gradient Boosting,Low Risk,High Risk,3,0.000559
+Gradient Boosting,Medium Risk,Low Risk,217,0.039956
+Gradient Boosting,Medium Risk,Medium Risk,5026,0.925428
+Gradient Boosting,Medium Risk,High Risk,188,0.034616
+Gradient Boosting,High Risk,Low Risk,51,0.009621
+Gradient Boosting,High Risk,Medium Risk,475,0.089606
+Gradient Boosting,High Risk,High Risk,4775,0.900773
+AdaBoost,Low Risk,Low Risk,4677,0.871599
+AdaBoost,Low Risk,Medium Risk,686,0.127842
+AdaBoost,Low Risk,High Risk,3,0.000559
+AdaBoost,Medium Risk,Low Risk,195,0.035905
+AdaBoost,Medium Risk,Medium Risk,5027,0.925612
+AdaBoost,Medium Risk,High Risk,209,0.038483
+AdaBoost,High Risk,Low Risk,35,0.006603
+AdaBoost,High Risk,Medium Risk,2067,0.389926
+AdaBoost,High Risk,High Risk,3199,0.603471
+HistGradientBoosting,Low Risk,Low Risk,5189,0.967015
+HistGradientBoosting,Low Risk,Medium Risk,164,0.030563
+HistGradientBoosting,Low Risk,High Risk,13,0.002423
+HistGradientBoosting,Medium Risk,Low Risk,206,0.03793
+HistGradientBoosting,Medium Risk,Medium Risk,5121,0.94292
+HistGradientBoosting,Medium Risk,High Risk,104,0.019149
+HistGradientBoosting,High Risk,Low Risk,65,0.012262
+HistGradientBoosting,High Risk,Medium Risk,447,0.084324
+HistGradientBoosting,High Risk,High Risk,4789,0.903414
+Gaussian Naive Bayes,Low Risk,Low Risk,3587,0.668468
+Gaussian Naive Bayes,Low Risk,Medium Risk,1731,0.322587
+Gaussian Naive Bayes,Low Risk,High Risk,48,0.008945
+Gaussian Naive Bayes,Medium Risk,Low Risk,425,0.078254
+Gaussian Naive Bayes,Medium Risk,Medium Risk,3907,0.719389
+Gaussian Naive Bayes,Medium Risk,High Risk,1099,0.202357
+Gaussian Naive Bayes,High Risk,Low Risk,127,0.023958
+Gaussian Naive Bayes,High Risk,Medium Risk,491,0.092624
+Gaussian Naive Bayes,High Risk,High Risk,4683,0.883418
+Linear SVM,Low Risk,Low Risk,5099,0.950242
+Linear SVM,Low Risk,Medium Risk,266,0.049571
+Linear SVM,Low Risk,High Risk,1,0.000186
+Linear SVM,Medium Risk,Low Risk,466,0.085804
+Linear SVM,Medium Risk,Medium Risk,3801,0.699871
+Linear SVM,Medium Risk,High Risk,1164,0.214325
+Linear SVM,High Risk,Low Risk,68,0.012828
+Linear SVM,High Risk,Medium Risk,381,0.071873
+Linear SVM,High Risk,High Risk,4852,0.915299
+MLP Neural Network,Low Risk,Low Risk,5279,0.983787
+MLP Neural Network,Low Risk,Medium Risk,73,0.013604
+MLP Neural Network,Low Risk,High Risk,14,0.002609
+MLP Neural Network,Medium Risk,Low Risk,164,0.030197
+MLP Neural Network,Medium Risk,Medium Risk,5222,0.961517
+MLP Neural Network,Medium Risk,High Risk,45,0.008286
+MLP Neural Network,High Risk,Low Risk,85,0.016035
+MLP Neural Network,High Risk,Medium Risk,417,0.078664
+MLP Neural Network,High Risk,High Risk,4799,0.905301
+Linear Discriminant Analysis,Low Risk,Low Risk,4673,0.870854
+Linear Discriminant Analysis,Low Risk,Medium Risk,686,0.127842
+Linear Discriminant Analysis,Low Risk,High Risk,7,0.001305
+Linear Discriminant Analysis,Medium Risk,Low Risk,148,0.027251
+Linear Discriminant Analysis,Medium Risk,Medium Risk,4699,0.865218
+Linear Discriminant Analysis,Medium Risk,High Risk,584,0.107531
+Linear Discriminant Analysis,High Risk,Low Risk,27,0.005093
+Linear Discriminant Analysis,High Risk,Medium Risk,447,0.084324
+Linear Discriminant Analysis,High Risk,High Risk,4827,0.910583
+Logistic Regression (Tuned),Low Risk,Low Risk,5091,0.948751
+Logistic Regression (Tuned),Low Risk,Medium Risk,275,0.051249
+Logistic Regression (Tuned),Low Risk,High Risk,0,0.0
+Logistic Regression (Tuned),Medium Risk,Low Risk,197,0.036273
+Logistic Regression (Tuned),Medium Risk,Medium Risk,4973,0.915669
+Logistic Regression (Tuned),Medium Risk,High Risk,261,0.048057
+Logistic Regression (Tuned),High Risk,Low Risk,48,0.009055
+Logistic Regression (Tuned),High Risk,Medium Risk,486,0.091681
+Logistic Regression (Tuned),High Risk,High Risk,4767,0.899264
+Random Forest (Tuned),Low Risk,Low Risk,5169,0.963287
+Random Forest (Tuned),Low Risk,Medium Risk,190,0.035408
+Random Forest (Tuned),Low Risk,High Risk,7,0.001305
+Random Forest (Tuned),Medium Risk,Low Risk,260,0.047873
+Random Forest (Tuned),Medium Risk,Medium Risk,5038,0.927638
+Random Forest (Tuned),Medium Risk,High Risk,133,0.024489
+Random Forest (Tuned),High Risk,Low Risk,77,0.014526
+Random Forest (Tuned),High Risk,Medium Risk,457,0.08621
+Random Forest (Tuned),High Risk,High Risk,4767,0.899264
+Gradient Boosting (Tuned),Low Risk,Low Risk,5174,0.964219
+Gradient Boosting (Tuned),Low Risk,Medium Risk,181,0.033731
+Gradient Boosting (Tuned),Low Risk,High Risk,11,0.00205
+Gradient Boosting (Tuned),Medium Risk,Low Risk,207,0.038115
+Gradient Boosting (Tuned),Medium Risk,Medium Risk,5105,0.939974
+Gradient Boosting (Tuned),Medium Risk,High Risk,119,0.021911
+Gradient Boosting (Tuned),High Risk,Low Risk,65,0.012262
+Gradient Boosting (Tuned),High Risk,Medium Risk,455,0.085833
+Gradient Boosting (Tuned),High Risk,High Risk,4781,0.901905
+Linear SVM (Tuned),Low Risk,Low Risk,5098,0.950056
+Linear SVM (Tuned),Low Risk,Medium Risk,267,0.049758
+Linear SVM (Tuned),Low Risk,High Risk,1,0.000186
+Linear SVM (Tuned),Medium Risk,Low Risk,465,0.08562
+Linear SVM (Tuned),Medium Risk,Medium Risk,3802,0.700055
+Linear SVM (Tuned),Medium Risk,High Risk,1164,0.214325
+Linear SVM (Tuned),High Risk,Low Risk,68,0.012828
+Linear SVM (Tuned),High Risk,Medium Risk,381,0.071873
+Linear SVM (Tuned),High Risk,High Risk,4852,0.915299
+MLP Neural Network (Tuned),Low Risk,Low Risk,5274,0.982855
+MLP Neural Network (Tuned),Low Risk,Medium Risk,81,0.015095
+MLP Neural Network (Tuned),Low Risk,High Risk,11,0.00205
+MLP Neural Network (Tuned),Medium Risk,Low Risk,166,0.030565
+MLP Neural Network (Tuned),Medium Risk,Medium Risk,5238,0.964463
+MLP Neural Network (Tuned),Medium Risk,High Risk,27,0.004971
+MLP Neural Network (Tuned),High Risk,Low Risk,87,0.016412
+MLP Neural Network (Tuned),High Risk,Medium Risk,427,0.080551
+MLP Neural Network (Tuned),High Risk,High Risk,4787,0.903037

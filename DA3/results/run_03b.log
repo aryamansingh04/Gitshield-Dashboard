@@ -1,0 +1,19 @@
+[ 104.9s] fold 1/5 done
+[ 193.6s] fold 2/5 done
+[ 292.9s] fold 3/5 done
+[ 377.2s] fold 4/5 done
+[ 454.7s] fold 5/5 done
+[ 454.8s] DONE
+                            Model  Acc_mean  Acc_sd  F1_mean  F1_sd
+MLP Neural Network (Tuned config)    0.9579  0.0176   0.9579 0.0176
+             HistGradientBoosting    0.9457  0.0198   0.9459 0.0197
+                      Extra Trees    0.9390  0.0167   0.9391 0.0167
+                    Random Forest    0.9384  0.0173   0.9386 0.0173
+                Gradient Boosting    0.9327  0.0181   0.9331 0.0179
+              Logistic Regression    0.9318  0.0255   0.9322 0.0253
+                        Reference           Comparator  Mean_F1_diff  NB_corrected_t  df  p_value  Uncorrected_paired_t_p  Holm_p
+MLP Neural Network (Tuned config) HistGradientBoosting       0.01201         8.05986   4  0.00129                 0.00027 0.00257
+MLP Neural Network (Tuned config)          Extra Trees       0.01880        13.13604   4  0.00019                 0.00004 0.00058
+MLP Neural Network (Tuned config)        Random Forest       0.01932        25.19137   4  0.00001                 0.00000 0.00007
+MLP Neural Network (Tuned config)    Gradient Boosting       0.02473        23.48518   4  0.00002                 0.00000 0.00008
+MLP Neural Network (Tuned config)  Logistic Regression       0.02571         4.88075   4  0.00816                 0.00185 0.00816

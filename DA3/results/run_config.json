@@ -1,0 +1,47 @@
+{
+  "selected_features": [
+    "stars",
+    "forks",
+    "watchers",
+    "language_count",
+    "topic_count",
+    "disk_usage_kb",
+    "pull_requests",
+    "issues",
+    "commits",
+    "assignable_user_count",
+    "days_since_update",
+    "fork_ratio",
+    "repository_density",
+    "commit_activity",
+    "repository_age_years",
+    "issue_resolution_rate",
+    "has_license",
+    "has_code_of_conduct",
+    "license_MIT License",
+    "license_Unknown"
+  ],
+  "n_train": 64391,
+  "n_test": 16098,
+  "thresholds": {
+    "low_below": 0.54,
+    "high_from": 0.65
+  },
+  "seed": 42,
+  "log1p_columns": [
+    "stars",
+    "forks",
+    "watchers",
+    "language_count",
+    "topic_count",
+    "disk_usage_kb",
+    "pull_requests",
+    "issues",
+    "commits",
+    "assignable_user_count",
+    "days_since_update",
+    "fork_ratio",
+    "repository_density",
+    "commit_activity"
+  ]
+}

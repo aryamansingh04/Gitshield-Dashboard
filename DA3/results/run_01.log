@@ -1,0 +1,38 @@
+[    9.1s] train=64391 test=16098 selected_features=20
+[    9.6s] Logistic Regression              acc=0.9213 f1=0.9218 auc=0.9714 fit=0.5s
+[   32.0s] KNN                              acc=0.8906 f1=0.8914 auc=0.9650 fit=0.0s
+[   32.6s] Decision Tree                    acc=0.9173 f1=0.9176 auc=0.9547 fit=0.5s
+[   45.4s] Random Forest                    acc=0.9296 f1=0.9299 auc=0.9838 fit=11.5s
+[   51.3s] Extra Trees                      acc=0.9304 f1=0.9306 auc=0.9831 fit=4.0s
+[  114.9s] Gradient Boosting                acc=0.9233 f1=0.9239 auc=0.9820 fit=63.1s
+[  123.9s] AdaBoost                         acc=0.8015 f1=0.8020 auc=0.8330 fit=8.2s
+[  129.1s] HistGradientBoosting             acc=0.9379 f1=0.9382 auc=0.9858 fit=3.8s
+[  129.2s] Gaussian Naive Bayes             acc=0.7564 f1=0.7574 auc=0.9150 fit=0.0s
+[  130.0s] Linear SVM                       acc=0.8543 f1=0.8514 auc=0.9607 fit=0.7s
+[  136.0s] MLP Neural Network               acc=0.9504 f1=0.9504 auc=0.9879 fit=5.9s
+[  136.2s] Linear Discriminant Analysis     acc=0.8820 f1=0.8834 auc=0.9672 fit=0.1s
+[  136.8s] Logistic Regression (Tuned)      acc=0.9213 f1=0.9218 auc=0.9714 fit=0.5s
+[  163.1s] Random Forest (Tuned)            acc=0.9302 f1=0.9304 auc=0.9841 fit=23.8s
+[  386.4s] Gradient Boosting (Tuned)        acc=0.9355 f1=0.9358 auc=0.9849 fit=222.2s
+[  387.1s] Linear SVM (Tuned)               acc=0.8543 f1=0.8514 auc=0.9607 fit=0.7s
+[  402.5s] MLP Neural Network (Tuned)       acc=0.9504 f1=0.9504 auc=0.9887 fit=15.2s
+[  402.6s] max |dAcc|=0.00114  max |dF1|=0.00112  max |dAUC|=0.00104
+[  407.5s] DONE; wrote 17 model rows; failures=0
+ Rank_F1                        Model  Accuracy  F1_macro  ROC_AUC_macro_ovr  Fit_Time_s
+       1           MLP Neural Network    0.9504    0.9504             0.9879      5.9035
+       2   MLP Neural Network (Tuned)    0.9504    0.9504             0.9887     15.2386
+       3         HistGradientBoosting    0.9379    0.9382             0.9858      3.7551
+       4    Gradient Boosting (Tuned)    0.9355    0.9358             0.9849    222.1848
+       5                  Extra Trees    0.9304    0.9306             0.9831      3.9640
+       6        Random Forest (Tuned)    0.9302    0.9304             0.9841     23.7653
+       7                Random Forest    0.9296    0.9299             0.9838     11.4704
+       8            Gradient Boosting    0.9233    0.9239             0.9820     63.0728
+       9          Logistic Regression    0.9213    0.9218             0.9714      0.4900
+      10  Logistic Regression (Tuned)    0.9213    0.9218             0.9714      0.5310
+      11                Decision Tree    0.9173    0.9176             0.9547      0.5319
+      12                          KNN    0.8906    0.8914             0.9650      0.0077
+      13 Linear Discriminant Analysis    0.8820    0.8834             0.9672      0.1292
+      14           Linear SVM (Tuned)    0.8543    0.8514             0.9607      0.6520
+      15                   Linear SVM    0.8543    0.8514             0.9607      0.7335
+      16                     AdaBoost    0.8015    0.8020             0.8330      8.2426
+      17         Gaussian Naive Bayes    0.7564    0.7574             0.9150      0.0170

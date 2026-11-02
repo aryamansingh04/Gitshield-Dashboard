@@ -1,0 +1,31 @@
+Model,Fold,Accuracy,F1_macro
+MLP Neural Network (Tuned config),1,0.952558,0.952454
+HistGradientBoosting,1,0.939203,0.93938
+Gradient Boosting,1,0.927013,0.927473
+Extra Trees,1,0.931128,0.931282
+Random Forest,1,0.931672,0.931906
+Logistic Regression,1,0.923519,0.923884
+MLP Neural Network (Tuned config),2,0.95007,0.950051
+HistGradientBoosting,2,0.937646,0.937893
+Gradient Boosting,2,0.923435,0.924057
+Extra Trees,2,0.932443,0.932638
+Random Forest,2,0.931666,0.931919
+Logistic Regression,2,0.920562,0.921018
+MLP Neural Network (Tuned config),3,0.950536,0.950389
+HistGradientBoosting,3,0.936326,0.936487
+Gradient Boosting,3,0.923668,0.924196
+Extra Trees,3,0.931123,0.931188
+Random Forest,3,0.930191,0.930368
+Logistic Regression,3,0.91831,0.918844
+MLP Neural Network (Tuned config),4,0.947352,0.947256
+HistGradientBoosting,4,0.934384,0.934539
+Gradient Boosting,4,0.924445,0.924919
+Extra Trees,4,0.9312,0.93133
+Random Forest,4,0.929026,0.929185
+Logistic Regression,4,0.91932,0.919782
+MLP Neural Network (Tuned config),5,0.989206,0.989251
+HistGradientBoosting,5,0.980975,0.98105
+Gradient Boosting,5,0.964979,0.965096
+Extra Trees,5,0.968862,0.968954
+Random Forest,5,0.969328,0.969423
+Logistic Regression,5,0.977248,0.977333

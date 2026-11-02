@@ -1,0 +1,7 @@
+Model,Acc_mean,Acc_sd,F1_mean,F1_sd
+MLP Neural Network (Tuned config),0.957945,0.017574,0.95788,0.017634
+HistGradientBoosting,0.945707,0.019795,0.94587,0.019747
+Extra Trees,0.938951,0.01673,0.939079,0.016711
+Random Forest,0.938377,0.017338,0.93856,0.017291
+Gradient Boosting,0.932708,0.018096,0.933148,0.017912
+Logistic Regression,0.931792,0.025486,0.932172,0.025317

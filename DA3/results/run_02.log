@@ -1,0 +1,28 @@
+[   0.1s] 17 models, n_test=16098, reference (rank-1 by macro-F1) = MLP Neural Network
+[  12.0s] bootstrap done: MLP Neural Network
+[  24.5s] bootstrap done: MLP Neural Network (Tuned)
+[  36.4s] bootstrap done: HistGradientBoosting
+[  49.0s] bootstrap done: Gradient Boosting (Tuned)
+[  56.3s] bootstrap done: Extra Trees
+[  67.8s] bootstrap done: Random Forest (Tuned)
+[  76.0s] bootstrap done: Random Forest
+[  87.8s] bootstrap done: Gradient Boosting
+[ 101.0s] bootstrap done: Logistic Regression
+[ 113.4s] bootstrap done: Logistic Regression (Tuned)
+[ 120.9s] bootstrap done: Decision Tree
+[ 127.1s] bootstrap done: KNN
+[ 139.4s] bootstrap done: Linear Discriminant Analysis
+[ 151.5s] bootstrap done: Linear SVM (Tuned)
+[ 163.4s] bootstrap done: Linear SVM
+[ 174.0s] bootstrap done: AdaBoost
+[ 186.1s] bootstrap done: Gaussian Naive Bayes
+[ 186.3s] statistical_comparison.csv written
+[ 186.3s] share of errors between ADJACENT classes (reference model): 0.8759
+[ 186.3s] DONE
+Metric                Accuracy  F1_macro  ROC_AUC_macro_ovr
+Model                                                      
+AdaBoost                0.7953    0.7959             0.8300
+Decision Tree           0.9129    0.9132             0.9515
+Extra Trees             0.9263    0.9266             0.9817
+Gaussian Naive Bayes    0.7497    0.7506             0.9114
+Gradient Boosting       0.9192    0.9198             0.9805

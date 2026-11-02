@@ -1,0 +1,51 @@
+{
+  "n_repositories": 80489,
+  "n_train": 64391,
+  "n_test": 16098,
+  "n_models_evaluated": 17,
+  "n_baseline_models": 12,
+  "n_tuned_models": 5,
+  "best_model": "MLP Neural Network",
+  "selection_rule": "Highest macro-F1 on the held-out test set (ties broken by macro ROC-AUC). Note: the test set is also used to rank 17 candidates, so the winner's score is slightly optimistic.",
+  "best_accuracy": 0.950429,
+  "best_f1_macro": 0.950402,
+  "best_roc_auc": 0.98795,
+  "best_accuracy_ci": [
+    0.947261,
+    0.953783
+  ],
+  "best_f1_ci": [
+    0.947228,
+    0.953758
+  ],
+  "best_auc_ci": [
+    0.986777,
+    0.989178
+  ],
+  "class_counts": {
+    "Low Risk": 26831,
+    "Medium Risk": 27152,
+    "High Risk": 26506
+  },
+  "thresholds": {
+    "low_below": 0.54,
+    "high_from": 0.65
+  },
+  "reconstruction": {
+    "n_rows": 80489,
+    "max_abs_error": 2.220446049250313e-16,
+    "rows_not_reproduced_if_pandas_NaN_treated_as_missing": 9,
+    "da1_da2_code_of_conduct_encoding_mismatch_rows": 14,
+    "da1_da2_code_of_conduct_note": "DA1 counts the strings 'None' (9 rows, parsed as NaN by pandas) and 'No Code Of Conduct' (5 rows) as 'has code of conduct'; DA2 feature has_code_of_conduct counts them as absent.",
+    "mean_abs_error": 8.430916873442475e-18,
+    "share_within_1e-6": 1.0,
+    "class_agreement_with_stored_label": 1.0,
+    "interpretation": "label is a deterministic, closed-form function of raw columns that are also DA2 model inputs (the models never see the composite scores themselves, but they see their ingredients)"
+  },
+  "boundary_summary": {
+    "best_model": "MLP Neural Network",
+    "median_distance_correct": 0.049379760864764255,
+    "median_distance_errors": 0.05127123114053056,
+    "share_errors_within_0.02_of_threshold": 0.2882205513784461
+  }
+}

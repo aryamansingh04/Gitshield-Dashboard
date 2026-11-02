@@ -1,0 +1,7 @@
+distance_to_nearest_threshold,Model,n_test_rows,n_errors,error_rate
+-0.001-0.005,MLP Neural Network,617,128,0.20746
+0.005-0.01,MLP Neural Network,700,47,0.06714
+0.01-0.02,MLP Neural Network,1788,55,0.03076
+0.02-0.04,MLP Neural Network,3342,109,0.03262
+0.04-0.08,MLP Neural Network,4870,205,0.04209
+0.08-1,MLP Neural Network,4781,254,0.05313

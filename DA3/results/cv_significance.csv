@@ -1,0 +1,6 @@
+Reference,Comparator,Mean_F1_diff,NB_corrected_t,df,p_value,Uncorrected_paired_t_p,Holm_p
+MLP Neural Network (Tuned config),HistGradientBoosting,0.0120105,8.05985844,4,0.00128688,0.00026849,0.00257375
+MLP Neural Network (Tuned config),Extra Trees,0.01880153,13.1360368,4,0.00019395,3.913e-05,0.00058186
+MLP Neural Network (Tuned config),Random Forest,0.01932015,25.19136932,4,1.474e-05,2.93e-06,7.372e-05
+MLP Neural Network (Tuned config),Gradient Boosting,0.02473185,23.48518219,4,1.949e-05,3.88e-06,7.795e-05
+MLP Neural Network (Tuned config),Logistic Regression,0.02570791,4.88074589,4,0.00815622,0.00185214,0.00815622

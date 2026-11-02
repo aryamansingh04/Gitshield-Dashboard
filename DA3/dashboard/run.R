@@ -1,0 +1,5 @@
+# Launch the GitShield AI dashboard:  Rscript DA3/dashboard/run.R   (from the repository root)
+args <- commandArgs(trailingOnly = FALSE)
+f <- sub("^--file=", "", args[grep("^--file=", args)])
+app_dir <- if (length(f)) dirname(normalizePath(f)) else file.path("DA3", "dashboard")
+shiny::runApp(app_dir, launch.browser = TRUE)

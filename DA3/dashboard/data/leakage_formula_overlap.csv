@@ -1,0 +1,22 @@
+Predictor,In_label_formula,Direct_component,Enters_through
+stars,True,False,(fork_ratio denominator)
+forks,True,True,community; (fork_ratio)
+watchers,True,True,community
+language_count,False,False,- (not used by the label)
+topic_count,True,True,community
+disk_usage_kb,False,False,- (not used by the label)
+pull_requests,True,True,maintenance
+issues,True,False,(issue_resolution_rate)
+commits,False,False,- (not used by the label)
+assignable_user_count,True,True,security_exposure; maintenance; community
+repository_age_years,True,True,stability
+days_since_update,True,True,security_exposure; maintenance; stability
+fork_ratio,True,True,security_exposure
+issue_resolution_rate,True,True,stability
+repository_density,False,False,- (not used by the label)
+commit_activity,False,False,- (not used by the label)
+is_archived,True,True,security_exposure; maintenance; stability
+has_license,True,True,security_exposure
+has_code_of_conduct,True,True,security_exposure
+primary_language,False,False,- (not used by the label)
+license,True,True,security_exposure (via has_license)

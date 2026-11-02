@@ -1,0 +1,103 @@
+Model,Actual,Predicted,Count,Share_of_all_errors,Error_Type
+MLP Neural Network,Low Risk,Medium Risk,73,0.091479,Adjacent classes
+MLP Neural Network,Low Risk,High Risk,14,0.017544,Low<->High (non-adjacent)
+MLP Neural Network,Medium Risk,Low Risk,164,0.205514,Adjacent classes
+MLP Neural Network,Medium Risk,High Risk,45,0.056391,Adjacent classes
+MLP Neural Network,High Risk,Low Risk,85,0.106516,Low<->High (non-adjacent)
+MLP Neural Network,High Risk,Medium Risk,417,0.522556,Adjacent classes
+MLP Neural Network (Tuned),Low Risk,Medium Risk,81,0.101377,Adjacent classes
+MLP Neural Network (Tuned),Low Risk,High Risk,11,0.013767,Low<->High (non-adjacent)
+MLP Neural Network (Tuned),Medium Risk,Low Risk,166,0.20776,Adjacent classes
+MLP Neural Network (Tuned),Medium Risk,High Risk,27,0.033792,Adjacent classes
+MLP Neural Network (Tuned),High Risk,Low Risk,87,0.108886,Low<->High (non-adjacent)
+MLP Neural Network (Tuned),High Risk,Medium Risk,427,0.534418,Adjacent classes
+HistGradientBoosting,Low Risk,Medium Risk,164,0.164164,Adjacent classes
+HistGradientBoosting,Low Risk,High Risk,13,0.013013,Low<->High (non-adjacent)
+HistGradientBoosting,Medium Risk,Low Risk,206,0.206206,Adjacent classes
+HistGradientBoosting,Medium Risk,High Risk,104,0.104104,Adjacent classes
+HistGradientBoosting,High Risk,Low Risk,65,0.065065,Low<->High (non-adjacent)
+HistGradientBoosting,High Risk,Medium Risk,447,0.447447,Adjacent classes
+Gradient Boosting (Tuned),Low Risk,Medium Risk,181,0.174374,Adjacent classes
+Gradient Boosting (Tuned),Low Risk,High Risk,11,0.010597,Low<->High (non-adjacent)
+Gradient Boosting (Tuned),Medium Risk,Low Risk,207,0.199422,Adjacent classes
+Gradient Boosting (Tuned),Medium Risk,High Risk,119,0.114644,Adjacent classes
+Gradient Boosting (Tuned),High Risk,Low Risk,65,0.06262,Low<->High (non-adjacent)
+Gradient Boosting (Tuned),High Risk,Medium Risk,455,0.438343,Adjacent classes
+Extra Trees,Low Risk,Medium Risk,181,0.161607,Adjacent classes
+Extra Trees,Low Risk,High Risk,3,0.002679,Low<->High (non-adjacent)
+Extra Trees,Medium Risk,Low Risk,275,0.245536,Adjacent classes
+Extra Trees,Medium Risk,High Risk,120,0.107143,Adjacent classes
+Extra Trees,High Risk,Low Risk,96,0.085714,Low<->High (non-adjacent)
+Extra Trees,High Risk,Medium Risk,445,0.397321,Adjacent classes
+Random Forest (Tuned),Low Risk,Medium Risk,190,0.169039,Adjacent classes
+Random Forest (Tuned),Low Risk,High Risk,7,0.006228,Low<->High (non-adjacent)
+Random Forest (Tuned),Medium Risk,Low Risk,260,0.231317,Adjacent classes
+Random Forest (Tuned),Medium Risk,High Risk,133,0.118327,Adjacent classes
+Random Forest (Tuned),High Risk,Low Risk,77,0.068505,Low<->High (non-adjacent)
+Random Forest (Tuned),High Risk,Medium Risk,457,0.406584,Adjacent classes
+Random Forest,Low Risk,Medium Risk,182,0.160635,Adjacent classes
+Random Forest,Low Risk,High Risk,6,0.005296,Low<->High (non-adjacent)
+Random Forest,Medium Risk,Low Risk,273,0.240953,Adjacent classes
+Random Forest,Medium Risk,High Risk,130,0.11474,Adjacent classes
+Random Forest,High Risk,Low Risk,80,0.070609,Low<->High (non-adjacent)
+Random Forest,High Risk,Medium Risk,462,0.407767,Adjacent classes
+Gradient Boosting,Low Risk,Medium Risk,300,0.243112,Adjacent classes
+Gradient Boosting,Low Risk,High Risk,3,0.002431,Low<->High (non-adjacent)
+Gradient Boosting,Medium Risk,Low Risk,217,0.175851,Adjacent classes
+Gradient Boosting,Medium Risk,High Risk,188,0.15235,Adjacent classes
+Gradient Boosting,High Risk,Low Risk,51,0.041329,Low<->High (non-adjacent)
+Gradient Boosting,High Risk,Medium Risk,475,0.384927,Adjacent classes
+Logistic Regression,Low Risk,Medium Risk,275,0.217048,Adjacent classes
+Logistic Regression,Low Risk,High Risk,0,0.0,Low<->High (non-adjacent)
+Logistic Regression,Medium Risk,Low Risk,197,0.155485,Adjacent classes
+Logistic Regression,Medium Risk,High Risk,261,0.205998,Adjacent classes
+Logistic Regression,High Risk,Low Risk,48,0.037885,Low<->High (non-adjacent)
+Logistic Regression,High Risk,Medium Risk,486,0.383583,Adjacent classes
+Logistic Regression (Tuned),Low Risk,Medium Risk,275,0.217048,Adjacent classes
+Logistic Regression (Tuned),Low Risk,High Risk,0,0.0,Low<->High (non-adjacent)
+Logistic Regression (Tuned),Medium Risk,Low Risk,197,0.155485,Adjacent classes
+Logistic Regression (Tuned),Medium Risk,High Risk,261,0.205998,Adjacent classes
+Logistic Regression (Tuned),High Risk,Low Risk,48,0.037885,Low<->High (non-adjacent)
+Logistic Regression (Tuned),High Risk,Medium Risk,486,0.383583,Adjacent classes
+Decision Tree,Low Risk,Medium Risk,230,0.172673,Adjacent classes
+Decision Tree,Low Risk,High Risk,43,0.032282,Low<->High (non-adjacent)
+Decision Tree,Medium Risk,Low Risk,338,0.253754,Adjacent classes
+Decision Tree,Medium Risk,High Risk,170,0.127628,Adjacent classes
+Decision Tree,High Risk,Low Risk,69,0.051802,Low<->High (non-adjacent)
+Decision Tree,High Risk,Medium Risk,482,0.361862,Adjacent classes
+KNN,Low Risk,Medium Risk,478,0.271437,Adjacent classes
+KNN,Low Risk,High Risk,7,0.003975,Low<->High (non-adjacent)
+KNN,Medium Risk,Low Risk,390,0.221465,Adjacent classes
+KNN,Medium Risk,High Risk,298,0.169222,Adjacent classes
+KNN,High Risk,Low Risk,102,0.057922,Low<->High (non-adjacent)
+KNN,High Risk,Medium Risk,486,0.27598,Adjacent classes
+Linear Discriminant Analysis,Low Risk,Medium Risk,686,0.361243,Adjacent classes
+Linear Discriminant Analysis,Low Risk,High Risk,7,0.003686,Low<->High (non-adjacent)
+Linear Discriminant Analysis,Medium Risk,Low Risk,148,0.077936,Adjacent classes
+Linear Discriminant Analysis,Medium Risk,High Risk,584,0.30753,Adjacent classes
+Linear Discriminant Analysis,High Risk,Low Risk,27,0.014218,Low<->High (non-adjacent)
+Linear Discriminant Analysis,High Risk,Medium Risk,447,0.235387,Adjacent classes
+Linear SVM (Tuned),Low Risk,Medium Risk,267,0.113811,Adjacent classes
+Linear SVM (Tuned),Low Risk,High Risk,1,0.000426,Low<->High (non-adjacent)
+Linear SVM (Tuned),Medium Risk,Low Risk,465,0.19821,Adjacent classes
+Linear SVM (Tuned),Medium Risk,High Risk,1164,0.496164,Adjacent classes
+Linear SVM (Tuned),High Risk,Low Risk,68,0.028986,Low<->High (non-adjacent)
+Linear SVM (Tuned),High Risk,Medium Risk,381,0.162404,Adjacent classes
+Linear SVM,Low Risk,Medium Risk,266,0.113384,Adjacent classes
+Linear SVM,Low Risk,High Risk,1,0.000426,Low<->High (non-adjacent)
+Linear SVM,Medium Risk,Low Risk,466,0.198636,Adjacent classes
+Linear SVM,Medium Risk,High Risk,1164,0.496164,Adjacent classes
+Linear SVM,High Risk,Low Risk,68,0.028986,Low<->High (non-adjacent)
+Linear SVM,High Risk,Medium Risk,381,0.162404,Adjacent classes
+AdaBoost,Low Risk,Medium Risk,686,0.21471,Adjacent classes
+AdaBoost,Low Risk,High Risk,3,0.000939,Low<->High (non-adjacent)
+AdaBoost,Medium Risk,Low Risk,195,0.061033,Adjacent classes
+AdaBoost,Medium Risk,High Risk,209,0.065415,Adjacent classes
+AdaBoost,High Risk,Low Risk,35,0.010955,Low<->High (non-adjacent)
+AdaBoost,High Risk,Medium Risk,2067,0.646948,Adjacent classes
+Gaussian Naive Bayes,Low Risk,Medium Risk,1731,0.441469,Adjacent classes
+Gaussian Naive Bayes,Low Risk,High Risk,48,0.012242,Low<->High (non-adjacent)
+Gaussian Naive Bayes,Medium Risk,Low Risk,425,0.108391,Adjacent classes
+Gaussian Naive Bayes,Medium Risk,High Risk,1099,0.280286,Adjacent classes
+Gaussian Naive Bayes,High Risk,Low Risk,127,0.03239,Low<->High (non-adjacent)
+Gaussian Naive Bayes,High Risk,Medium Risk,491,0.125223,Adjacent classes
